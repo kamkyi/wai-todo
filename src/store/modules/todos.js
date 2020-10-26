@@ -11,7 +11,9 @@ const getters = {
 const actions = {
   async fetchTodos({ commit }) {
     const response = await axios.get(
-      'https://jsonplaceholder.typicode.com/todos'
+        'https://anyar-online.herokuapp.com/api/todos'
+      // 'http://admin.test/api/todos'
+      // 'https://jsonplaceholder.typicode.com/todos'
     );
 
     commit('setTodos', response.data);
