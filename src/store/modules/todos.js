@@ -48,7 +48,7 @@ const actions = {
   async updateTodo({ commit }, updTodo) {
     const response = await axios.put(
           //`https://jsonplaceholder.typicode.com/todos/${updTodo.id}`,
-    `https://anyar-online.herokuapp.com/api/update/${updTodo.id}`,
+    `https://anyar-online.herokuapp.com/api/todo/update/${updTodo.id}`,
     //  `http://admin.test/api/todo/update/${updTodo.id}`,
       updTodo
     );
