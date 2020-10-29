@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h3>Add Todo</h3>
+    <h3>လုပ်ဆောင်ရမည့် အလုပ်များမှတ်ရန်ရေးထည့်ပါ</h3>
     <div class="add">
       <form @submit="onSubmit">
-        <input type="text" v-model="title" placeholder="Add Todo...">
-        <input type="submit" value="Submit">
+        <input type="text" v-model="title" placeholder="အလုပ်များ ထည့်ပါ...">
+        <input type="submit" value="သိမ်းမယ်">
       </form>
     </div>
   </div>

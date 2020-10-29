@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h3>Todos</h3>
+    <h3>လုပ်ရမည့်အလုပ်များ</h3>
     <div class="legend">
-      <span>Double click to mark as complete</span>
+      <span>လုပ်ဆောင်ပြီးလျင် နှစ်ချက်နှိပ်ပါ</span>
       <span>
-        <span class="incomplete-box"></span> = Incomplete
+        <span class="incomplete-box"></span> = မလုပ်ရသေးလျင် အစိမ်းရောင်
       </span>
       <span>
-        <span class="complete-box"></span> = Complete
+        <span class="complete-box"></span> = လုပ်ပြီးလျင် အမဲရောင်
       </span>
     </div>
     <div class="todos">
